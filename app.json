@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "DirectorioApp",
+    "slug": "DirectorioApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/firestore"
+    ],
+    "android": {
+      "package": "com.DirectorioApp",
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "com.DirectorioApp"
+    }
+  }
+}
